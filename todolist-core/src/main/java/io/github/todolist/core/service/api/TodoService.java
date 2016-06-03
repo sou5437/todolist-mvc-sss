@@ -42,7 +42,7 @@ public interface TodoService {
      * @param id the todo's id
      * @return the todo having the given id or null if no todo found with the given id
      */
-    Todo getTodoById(final long id);
+    Todo getTodoById( long id);
 
     /**
      * Get todo list for the given user.
