@@ -55,7 +55,7 @@ public interface TodoService {
      * @param userId the user's id
      * @return the todo list for the given user
      */
-    List<Todo> getTodoListByUser(final long userId);
+    List<Todo> getTodoListByUser(final long userId1);
 
     /**
      * Search todo list by title for the given user.
